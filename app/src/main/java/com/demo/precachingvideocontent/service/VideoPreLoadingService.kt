@@ -27,7 +27,6 @@ class VideoPreLoadingService :
     private lateinit var mContext: Context
     private var cachingJob: Job? = null
     private var videosList: ArrayList<StoriesDataModel>? = null
-
     private lateinit var httpDataSourceFactory: HttpDataSource.Factory
     private lateinit var defaultDataSourceFactory: DefaultDataSourceFactory
     private lateinit var cacheDataSourceFactory: CacheDataSource
