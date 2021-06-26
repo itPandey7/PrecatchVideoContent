@@ -32,6 +32,7 @@ class VideoPreLoadingService :
     private lateinit var cacheDataSourceFactory: CacheDataSource
     private val simpleCache: SimpleCache? = MyApp.simpleCache
 
+
     override fun onHandleIntent(intent: Intent?) {
         mContext = applicationContext
 
