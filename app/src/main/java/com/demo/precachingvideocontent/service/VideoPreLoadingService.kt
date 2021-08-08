@@ -95,7 +95,6 @@ class VideoPreLoadingService :
             CacheWriter(
                 cacheDataSourceFactory,
                 dataSpec,
-                true,
                 null,
                 progressListener
             ).cache()
